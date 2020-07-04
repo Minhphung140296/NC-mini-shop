@@ -13,9 +13,8 @@ const StyledContent = Styled.div`
     box-sizing: border-box;
     padding-left:cal(30 / 1440 * 100vw);
     padding-right:cal(30 / 1440 * 100vw);
-    float:left;
 
-    & product-list{
+    & .product-list{
         display: flex;
         flex-flow:row wrap;
         align-item: flex-start;
@@ -114,11 +113,13 @@ const Content: FC<ContentProps> = props => {
     }, [card]);
     return (
         <StyledContent>
-            <div className='product-list'>
+            <div className="container row">
+            <div className='product-list col-sm-4'>
                 {
                         product.map((pro : IProduct)=>{
                             return (
                                 <Card 
+                                    
                                     key={pro.id}
                                     data={pro}
                                     addToCard={()=>{
@@ -128,6 +129,9 @@ const Content: FC<ContentProps> = props => {
                         })
                 }
             </div>
+  
+</div>
+           
         </StyledContent>
     );
 };
