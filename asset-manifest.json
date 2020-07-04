@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/NC-mini-shop/static/css/main.5f361e03.chunk.css",
+    "main.js": "/NC-mini-shop/static/js/main.4d8b7edf.chunk.js",
+    "main.js.map": "/NC-mini-shop/static/js/main.4d8b7edf.chunk.js.map",
+    "runtime-main.js": "/NC-mini-shop/static/js/runtime-main.2701fda8.js",
+    "runtime-main.js.map": "/NC-mini-shop/static/js/runtime-main.2701fda8.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/NC-mini-shop/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.95b96085.chunk.js": "/NC-mini-shop/static/js/2.95b96085.chunk.js",
+    "static/js/2.95b96085.chunk.js.map": "/NC-mini-shop/static/js/2.95b96085.chunk.js.map",
+    "index.html": "/NC-mini-shop/index.html",
+    "precache-manifest.dc28417c4e550861a2f447f94fac5435.js": "/NC-mini-shop/precache-manifest.dc28417c4e550861a2f447f94fac5435.js",
+    "service-worker.js": "/NC-mini-shop/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/NC-mini-shop/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.5f361e03.chunk.css.map": "/NC-mini-shop/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.95b96085.chunk.js.LICENSE.txt": "/NC-mini-shop/static/js/2.95b96085.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2701fda8.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.95b96085.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.4d8b7edf.chunk.js"
+  ]
+}
