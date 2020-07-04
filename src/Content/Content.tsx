@@ -4,6 +4,7 @@ import Styled from 'styled-components';
 import Button from './Button';
 
 const StyledContent = Styled.div`
+    float: flex;
     width: 100%;
     padding:auto;
     display: flex;
@@ -11,14 +12,16 @@ const StyledContent = Styled.div`
     justify-content: center;
     align-items:center;
     box-sizing: border-box;
-    padding-left:cal(30 / 1440 * 100vw);
-    padding-right:cal(30 / 1440 * 100vw);
+    padding-left:calc(30 / 1440 * 100vw);
+    padding-right:calc(30 / 1440 * 100vw);
+    
 
     & .product-list{
         display: flex;
         flex-flow:row wrap;
         align-item: flex-start;
         justify-content: space-around;
+        
     }
 `;
 const CardStyled = Styled.div`
@@ -113,8 +116,7 @@ const Content: FC<ContentProps> = props => {
     }, [card]);
     return (
         <StyledContent>
-            <div className="container row">
-            <div className='product-list col-sm-4'>
+            <div className='product-list '>
                 {
                         product.map((pro : IProduct)=>{
                             return (
@@ -127,9 +129,7 @@ const Content: FC<ContentProps> = props => {
                                 }}/>
                             )
                         })
-                }
-            </div>
-  
+                }  
 </div>
            
         </StyledContent>

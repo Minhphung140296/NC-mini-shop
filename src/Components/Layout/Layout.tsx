@@ -2,7 +2,7 @@ import React from 'react'
 import Styled from 'styled-components'
 
 const StyleLayout = Styled.div`
-    width: 33.33%;
+    width:100%;
     float:left;
     display:flex;
     flex-direction: column;
